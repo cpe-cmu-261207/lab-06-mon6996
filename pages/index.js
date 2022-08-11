@@ -48,7 +48,7 @@ export default function Home() {
           onChange={(event) => { setCount(event.target.value); }}
           value={count}
         />
-        <button class="btn btn-dark" onClick={() => genUsers()}>
+        <button className="btn btn-dark" onClick={() => genUsers()}>
           Generate
         </button>
       </div>

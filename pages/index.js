@@ -6,7 +6,7 @@ import {
 } from "@tabler/icons";
 import { useState } from "react";
 import axios from "axios";
-import UserCard from "./components/UserCard";
+import UserCard from "../components/UserCard";
 
 export default function Home() {
   const [count, setCount] = useState('');
@@ -58,8 +58,6 @@ export default function Home() {
           {...x}
         />
       ))}
-
-
 
       <p className="text-center mt-3 text-muted fst-italic">
         made by Thanaporn Chanchanayothin 640610638
